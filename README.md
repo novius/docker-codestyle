@@ -10,3 +10,9 @@ This docker image comes with:
 * bash, grep (with pcre, to use `grep -P`) ;
 * ruby, ruby-bundler (to install scss-lint, for instance, with gem or bundle).
 
+
+## Users
+
+By default, this docker image run as the root user.
+
+However, this docker image also define a non-root user `ci` (UID 1000, GID 1000) which can be switched on at run time using the `--user` flag to `docker run`.
