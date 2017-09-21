@@ -8,6 +8,7 @@ RUN apk add --no-cache \
         make \
         gcc \
         g++ \
+        git \
         nodejs \
         ruby-bundler \
         ruby-json \
